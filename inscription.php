@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 	<html>
-		<head>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-            <title>UGECAM-CRP Beauvoir</title>
-  </head>
-  <body>
-  
+  <?php include("commun/head.php"); ?>
+  <header>
   <?php include("commun/navbar.php"); ?>
-
+</header>
+<body>
+<img class="logo"src="images/ugecam.jpg">
 <h1>Pourquoi vous devez vous inscrire à la prochaine session ?</h1>
   <p>Le métier de développeur web full-stack est en pleine expension depuis quelques années
     <br/>
@@ -19,3 +15,6 @@
     les lignes de codes informatiques, et participe aux phases d'essai. 
   </p>
   <img src="images/developpeur-web.jpg" alt="developpeur" />
+  <p>Vous pouvez vous inscrire en suivant le lien ci dessous:</p>
+  <a href="connection.php">Venez vous inscrire !</a>
+</body>
