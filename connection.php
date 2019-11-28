@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <?php include("commun/head.php"); ?>
-<header>
+
 <?php include("commun/navbar.php"); ?>
-</header>
+
 
 <!--     formulaire  -->
 <?php

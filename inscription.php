@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 	<html>
   <?php include("commun/head.php"); ?>
-  <header>
+  
   <?php include("commun/navbar.php"); ?>
-</header>
+
 <body>
 <img class="logo"src="images/ugecam.jpg">
 <h1>Pourquoi vous devez vous inscrire à la prochaine session ?</h1>
@@ -14,7 +14,11 @@
     développeur logiciel analyse le projet qui lui est confié, en fonction des besoins des utilisateurs, réalise
     les lignes de codes informatiques, et participe aux phases d'essai. 
   </p>
-  <img src="images/developpeur-web.jpg" alt="developpeur" />
-  <p>Vous pouvez vous inscrire en suivant le lien ci dessous:</p>
-  <a href="connection.php">Venez vous inscrire !</a>
+  <img class="cours"src="images/developpeur-web.jpg" alt="developpeur"/>
+  <div class="inscription">
+  <strong>Vous pouvez vous inscrire en cliquant ci dessous: 
+  <a href="connection.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Inscription</a>
+</strong>
+  </div>
 </body>
+</html>

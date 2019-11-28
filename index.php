@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 	<html>
   <?php include("commun/head.php"); ?>
-  </head>
-  <header>
+  
   <?php include("commun/navbar.php"); ?>
-  </header>
+ 
   <body>
       <img class="logo"src="images/ugecam.jpg">
       <h1>UGECAM - FORMATION DEVELOPPEUR WEB FULL STACK </h1>

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 	<html>
   <?php include("commun/head.php"); ?>
-  <header>
-    <?php include("commun/navbar.php"); ?>
-</header>
+  
+  <?php include("commun/navbar.php"); ?>
+
 <body>
     <img class="logo"src="images/ugecam.jpg">
     <h1>Qui sont les formateurs</h1>
@@ -16,7 +16,11 @@
     <div class="photo">
     <div>
     <img src="images/max.jpg" alt="max Cohen"/><br/><span>Max Cohen</span>
+    </div>
+    <div>
     <img src="images/marc.jpg" alt="marc Decombas"/><br/><span>Marc Decombas</span>
+    </div>
+    <div>
     <img src="images/johnathan.jpg" alt="jonathan Foureur"/><br/><span>Jonathan Foureur</span>
     </div>
     </div>

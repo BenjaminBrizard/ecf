@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 	<html>
   <?php include("commun/head.php"); ?>
-  <header>
+  
   <?php include("commun/navbar.php"); ?>
-</header>
+
 <body>
   <img class="logo"src="images/ugecam.jpg">
 <h1>Le public visé par le CRP</h1>

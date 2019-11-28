@@ -22,8 +22,8 @@
     top: -9px;
     border-radius: 50%;
 }
-img{
-    display: block;
+.logo{
+    display: block; 
     margin-left: auto;
     margin-right: auto;
   }
@@ -34,4 +34,24 @@ h1{
 p{
     margin-left:100px;
     margin-right:100px;
+}
+.photo{
+    display:flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+}
+.cours{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inscription{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.carousel{
+    margin-bottom: 50px;
 }
